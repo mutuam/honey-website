@@ -242,7 +242,7 @@ header.sticky{
 }
 
 .shop-content{
-  display:flex;
+  display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,auto));
   gap:2rem;
   align-items:center;
