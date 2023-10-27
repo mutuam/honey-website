@@ -333,7 +333,7 @@ header.sticky{
   padding:35px;
   background:var(--other-color);
   border-radius:3rem;
-   border:.1rem solid var(--main-color);
+  border:.1rem solid var(--main-color);
 }
 
 .box p{
