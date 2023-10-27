@@ -243,7 +243,7 @@ header.sticky{
 
 .shop-content{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,auto));
+  grid-template-columns:repeat(auto-fit,minmax(200px,auto));
   gap:2rem;
   align-items:center;
   margin-top:4rem;
@@ -251,9 +251,11 @@ header.sticky{
 
 .row{
   position:relative;
-  padding:10px 35px 40px;
+  padding:10px 45px 40px;
   background:var(--other-color);
+  border:.1rem solid var(--main-color);
   border-radius:3rem;
+  text-align: center;
 }
 
 .row img{
@@ -331,7 +333,9 @@ header.sticky{
   padding:35px;
   background:var(--other-color);
   border-radius:3rem;
+   border:.1rem solid var(--main-color);
 }
+
 .box p{
   color:var(--second-color);
   font-size:var(--p-font);
@@ -343,11 +347,13 @@ header.sticky{
   align-items:center;
   gap:10px;
 }
+
 .bx-img img{
   width:100%;
   height:auto;
-  border-radius:3rem;
+  border-radius:2rem;
 }
+
 .bxx-text h4{
   margin:5px 0;
   font-size:18px;
